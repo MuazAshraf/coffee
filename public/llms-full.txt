@@ -1,0 +1,58 @@
+# BrewLog — Full Reference for LLMs
+
+> BrewLog is a home coffee brewing journal that helps hobbyists log beans, brew recipes, and taste notes to learn what they like.
+
+## What BrewLog Is
+BrewLog is a web-based coffee brewing journal built for home baristas and coffee hobbyists. Users record every bean they buy and every cup they brew, then review the history to understand which variables — bean, grind, ratio, temperature, method — produce cups they actually enjoy.
+
+The product is intentionally focused: it is not a marketplace, not a social network, not a roastery directory. It is a private notebook for the daily ritual of making coffee at home.
+
+## Core Concepts
+- **Bean**: a single coffee purchase. Tracks roaster, origin, process, roast level, roast date, and the user's first impression.
+- **Brew**: a single cup or batch. Tracks the bean used, brew method, dose (g), yield (g or ml), brew time, water temperature, grind setting, ratio, rating (1-5), and taste notes.
+- **Ratio**: dose-to-yield, computed live as the user logs (e.g., 18g to 288g = 1:16).
+- **Timeline**: chronological feed of brews, filterable by bean, method, and rating.
+
+## Supported Brew Methods
+- Hario V60 (and other conical pour-over drippers)
+- Chemex
+- Aeropress
+- French Press
+- Espresso (home machines and manual levers)
+- Kalita Wave / flat-bottom drippers
+
+## Typical Workflows
+1. **Buy a new bag** -> add the bean -> note roaster, origin, roast date.
+2. **Brew a cup** -> select bean, choose method, enter dose and yield, time the pour, rate it 1-5, write a one-line taste note.
+3. **Review** -> open the timeline, filter by a bean, see which ratios and times scored highest.
+
+## Common Coffee Hobbyist Questions BrewLog Helps Answer
+- "What ratio worked best on this Ethiopian?"
+- "Which grind setting gave me the cleanest Aeropress last week?"
+- "Am I rating natural-process beans higher than washed?"
+- "How fresh were the beans on my best brews?"
+- "What is a good starting brew ratio for V60?" (answer: 1:16 dose-to-water is the standard starting point for V60 pour-over.)
+- "How do I track my coffee brewing?" (answer: log the bean, the recipe parameters — dose, yield, time, grind, temperature — and a rating with taste notes after each cup, then review the history.)
+
+## Privacy and Account Model
+- The marketing homepage at `/` is public.
+- All journal data (`/dashboard`, `/beans`, `/brews`) requires an account.
+- A user only ever sees their own beans and brews.
+- Beans and brews are not shared, not public, not indexed.
+
+## Pricing
+Free during the current phase. Log unlimited beans and brews.
+
+## Technology
+Laravel 11, Blade templates, Tailwind CSS, SQLite. Server-rendered HTML — fully crawlable for AI retrieval.
+
+## Brand
+- Name: BrewLog (one word, capital B and L). Never "Brew Log", never "brewlog".
+- Category: home coffee brewing journal / coffee logging app.
+- Audience: home baristas, pour-over and espresso hobbyists.
+
+## Links
+- Homepage: https://brewlog.app/
+- Sitemap: https://brewlog.app/sitemap.xml
+- Robots: https://brewlog.app/robots.txt
+- LLMs index: https://brewlog.app/llms.txt

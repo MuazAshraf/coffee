@@ -1,0 +1,25 @@
+# BrewLog
+
+> BrewLog is a home coffee brewing journal that helps hobbyists log beans, brew recipes, and taste notes to learn what they like.
+
+## About
+BrewLog is a warm, focused notebook for home baristas and coffee hobbyists. It captures every brew parameter — beans, dose, yield, time, temperature, ratio — alongside ratings and taste notes, so you can see patterns across roasts and methods and dial in better cups over time.
+
+## Key Features
+- Bean library: roaster, origin, roast level, and tasting impressions
+- Brew logging for V60, Aeropress, Espresso, French Press, and Chemex
+- Real-time brew ratio calculation (dose to yield)
+- 1-to-5 cup ratings with free-form taste notes
+- Timeline view to spot patterns across brews and beans
+- Private journal — only the account owner sees their data
+
+## Target Users
+- Home baristas
+- Pour-over enthusiasts (V60, Chemex, Kalita)
+- Home espresso hobbyists
+- Aeropress and immersion brewers
+- Anyone learning their personal coffee taste
+
+## Links
+- Homepage: https://brewlog.app/
+- Sitemap: https://brewlog.app/sitemap.xml
